@@ -1,0 +1,257 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --main-color: #212121;
+    --second-color: #757575;
+    --accent-color: #2196F3;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+/* ============================== HEADER ==============================*/
+.logo-link{
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+
+.logo-accent{
+    color: var(--accent-color);
+}
+
+.menu-link{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+.mail-link{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+.mail-link:hover,
+.mail-link:focus{
+    color: var(--accent-color);
+}
+
+.tel-link{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+.tel-link:hover,
+.tel-link:focus{
+    color: var(--accent-color);
+}
+/* ============================== END HEADER ==============================*/
+
+.body-index{
+    font-family: var(--main-font);
+}
+
+/* ============================== HERO ==============================*/
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.modal-btn{
+    font-family: var(--main-font);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #188CE8;
+}
+/* ============================== END HERO ==============================*/
+
+/* ============================== ADVANTANGES ==============================*/
+.advantages-item-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages-item-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+/* ============================== END ADVANTANGES ==============================*/
+
+/* ==============================WHAT-WE-DO ==============================*/
+.works-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+/* ==============================END WHAT-WE-DO ==============================*/
+
+/* ==============================TEAM ==============================*/
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-img-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-img-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+/* ==============================END TEAM ==============================*/
+
+/* ============================== FOOTER ============================== */
+.adr-item{
+    font-style: normal;
+}
+
+.adr-map{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+
+.adr-mail{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#000000;              
+    /* color: rgba(255, 255, 255, 0.6); */
+
+}
+
+.adr-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#000000;
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.adr-map:hover,
+.adr-map:focus,
+.adr-mail:hover,
+.adr-mail:focus,
+.adr-tel:hover,
+.adr-tel:focus
+{
+    color: var(--accent-color);
+}
+/* ============================== END FOOTER ============================== */
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++    PORTFOLIO     +++++++++++++++++++++++++++++++++++++++++++++*/
+
+.body-portfolio{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============================== PAGE_NAVIGATION ============================== */
+.wiev-btn{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #F5F4FA;
+    cursor: pointer;
+}
+
+.wiev-btn:hover,
+.wiev-btn:focus{
+    color: #FFFFFF;
+    background: var(--accent-color);  
+}
+/* ============================== END PAGE_NAVIGATION ============================== */
+
+/* ============================== PROJECTS ============================== */
+
+.projects-title{
+    display:none;
+}
+
+.projects-list-item{
+    background: #FFFFFF;
+}
+
+.projects-img-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.projects-img-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+/* ============================== END PROJECTS ============================== */
