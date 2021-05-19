@@ -30,12 +30,14 @@ img{
     text-decoration: none;
 }
 
-/* ============================== BODY ==============================*/
-body{
+.container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-
+    margin: 0 auto;
+}
+/* ============================== BODY ==============================*/
+body{
     font-family: var(--main-font);
 }
 
@@ -118,9 +120,14 @@ body{
 .hero{
     text-align: center;
     margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
+.hero-bg{
+    background-color:#2F303A;
+}
+
 .hero-title{
-    margin-top: 200px;
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -128,12 +135,12 @@ body{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color:#FFFFFF;
 }
 
 .modal-btn{
     display: inline-box;
     padding: 9px 31px;
-    margin-bottom: 200px;
 
     font-family: var(--main-font);
     cursor: pointer;
@@ -276,8 +283,13 @@ body{
     padding-bottom: 60px;
 }
 
+.footer-bg{
+    background-color: #2F303A;
+}
+
 .footer > .logo-link{
     margin-bottom: 20px;
+    color:white;
 }
 
 .adr-item{
@@ -289,7 +301,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:#000000;
+    color:#fff;
 }
 
 .adr-mail{
@@ -297,9 +309,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:#000000;              
-    /* color: rgba(255, 255, 255, 0.6); */
-
+    color: #fff; 
 }
 
 .adr-tel{
@@ -307,8 +317,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:#000000;
-    /* color: rgba(255, 255, 255, 0.6); */
+    color:#fff;
 }
 
 .adr-map:hover,
@@ -379,8 +388,7 @@ body{
     display: flex;
     flex-direction: column; 
 
-    border: 1px solid #E5E5E5;
-    background: #FFFFFF;
+     background: #FFFFFF;
 }
 
 .projects-list-item:nth-child(3n+2){
