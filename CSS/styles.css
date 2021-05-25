@@ -45,10 +45,12 @@ body{
 /* ============================== END BODY ==============================*/
 
 /* ============================== HEADER ==============================*/
+
 .inheader{
     display: flex;
     align-items: center;
 }
+
 .logo-link{
     font-family: var(--second-font);
     font-weight: 700;
@@ -120,9 +122,6 @@ body{
 /* ============================== HERO ==============================*/
 .hero{
     background-color:#2F303A;
-}
-
-.hero-content{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -162,7 +161,7 @@ body{
 /* ============================== END HERO ==============================*/
 
 /* ============================== ADVANTANGES ==============================*/
-.advantages-content{  
+.advantages{  
     padding-top: 94px;  
     padding-bottom: 94px;
 }
@@ -198,7 +197,7 @@ body{
 /* ============================== END ADVANTANGES ==============================*/
 
 /* ==============================WHAT-WE-DO ==============================*/
-.works-content{
+.works{
     padding-bottom: 94px;    
 }
 .works-list{
@@ -223,13 +222,11 @@ body{
 
 /* ==============================TEAM ==============================*/
 .team{
-    background-color: #f1f0f0;
-}
-.team-content{
+    background-color: #f1f0f0;    
     padding-bottom: 94px;
     padding-top: 94px;
-
 }
+
 .team-title{
     margin-bottom: 50px;
 
@@ -281,17 +278,15 @@ body{
 
 /* ============================== FOOTER ============================== */
 .footer{
-    background-color: #2F303A;
-}
-
-.footer-content{
+    background-color: #2F303A;    
     display: flex;
     flex-direction: column;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer > .logo-link{
+.footer .logo-link{
+    display: inline-block;
     margin-bottom: 20px;
     color:white;
 }
@@ -350,12 +345,10 @@ body{
     border-bottom: 2px solid #ECECEC;
 }
 
-
-.portfolio-main{
-    margin-top: 94px;
-    margin-bottom: 94px;
+.projects{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-
 .wiev{
     display: flex;
     justify-content: center;
